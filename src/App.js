@@ -13,7 +13,7 @@ function App() {
       setLoading(true);
       try {
       const response = await axios.get(
-        "https://jsonplaceholder.typicode.com/posts"
+        "https://dummyjson.com/products"
       );
       setPosts(response.data);
       setLoading(false);
